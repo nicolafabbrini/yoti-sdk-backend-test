@@ -35,3 +35,12 @@ JDBC url: jdbc:h2:file:~/test_db
 User name: sa
 Password:  
 ```
+
+## Tests
+
+There are 38 unit and integration tests that you can run with
+
+```bash
+cd ~/git/yoti-sdk-backend-test
+mvn clean test
+```
