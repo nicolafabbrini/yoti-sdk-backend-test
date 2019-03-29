@@ -20,7 +20,7 @@ Only Java8 is required to run the server. The database is created automatically 
 
 ## Startup
 
-cd ~/git/yoti-sdk-backend-test/
+cd ~/git/yoti-sdk-backend-test/ . 
 java -jar yoti-sdk-backend-test.jar
 
 ## Endpoints:
@@ -30,7 +30,7 @@ Main endpoint is http://localhost:8080/roomba and accepts POST requests.
 A GUI with all the database informations can be reached at http://localhost:8080/h2 
 Use the following credentials when prompted:
 
-Driver class: org.h2.Driver
-JDBC url: jdbc:h2:file:~/test_db
-User name: sa
-Password:
+Driver class: org.h2.Driver . 
+JDBC url: jdbc:h2:file:~/test_db . 
+User name: sa . 
+Password:  
